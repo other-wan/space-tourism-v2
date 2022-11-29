@@ -1,0 +1,22 @@
+interface IMenu {
+  className?: string;
+}
+
+const Menu = ({ className }: IMenu) => {
+  return (
+    <svg
+      width="24"
+      height="21"
+      viewBox="0 0 24 21"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      <rect width="24" height="3" fill="#D0D6F9" />
+      <rect y="9" width="24" height="3" fill="#D0D6F9" />
+      <rect y="18" width="24" height="3" fill="#D0D6F9" />
+    </svg>
+  );
+};
+
+export default Menu;
