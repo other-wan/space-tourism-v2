@@ -39,9 +39,7 @@ const Header = () => {
       <nav
         className={classNames(
           "absolute top-0 w-[65%] h-screen z-20 bg-main-1/40 backdrop-blur-[40px] \
-           md:bg-gray-1 md:static md:h-full md:flex md:items-center md:justify-center \
-           lg:before:content-[''] lg:before:h-[1px] lg:before:w-[25%] lg:before:absolute \
-           lg:before:top-1/2 lg:before:right-[95%] lg:before:bg-gray-1 lg:before:z-30",
+           md:bg-gray-1 md:static md:h-full md:flex md:items-center md:justify-center",
           { ["-right-[1000px]"]: !navOpen, ["right-0"]: navOpen }
         )}
       >

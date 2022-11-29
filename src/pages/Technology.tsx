@@ -53,7 +53,7 @@ const Technology: FunctionComponent<ITechnologies> = ({ technologies }) => {
         lg:items-start lg:flex-col lg:row-start-2 lg:row-end-3 lg:col-start-1 lg:col-end-2"
       >
         {technologies.map((_, index) => (
-          <li>
+          <li key={_.name}>
             <Button
               className={classNames(
                 "w-10 h-10 rounded-full text-fs-10 font-bellefair md:w-[3.75rem] md:h-[3.75rem] md:text-fs-40",
